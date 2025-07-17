@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Landing page oficial del proyecto Royal 5 - Sitio oficial de alto impacto visual" />
+  <meta name="robots" content="index, follow" />
+  <title>Royal 5</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+  <div class="background-overlay" aria-hidden="true"></div>
+
+  <header class="header" role="banner">
+    <div class="container header-container">
+      <div class="logo" aria-label="Logo Royal 5">
+        <svg xmlns="http://www.w3.org/2000/svg" width="180" height="60" viewBox="0 0 360 120" role="img" aria-label="Logo Royal 5" aria-hidden="false" focusable="false" class="logo-svg">
+          <title>Royal 5 Logo</title>
+          <!-- Corona -->
+          <g fill="none" stroke="#bfa441" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" transform="translate(10,10)">
+            <rect x="10" y="80" width="90" height="15" rx="7" ry="7" fill="#bfa441"/>
+            <path d="M10 80 L30 10 L50 80 L70 10 L90 80 L110 10 L130 80" />
+            <line x1="30" y1="10" x2="30" y2="80" />
+            <line x1="70" y1="10" x2="70" y2="80" />
+            <line x1="110" y1="10" x2="110" y2="80" />
+          </g>
+
+          <text x="150" y="90" font-family="'Poppins', sans-serif" font-weight="700" font-size="50" fill="#bfa441" letter-spacing="7" style="user-select:none;">
+            Royal
+          </text>
+         
+          <text x="340" y="90" font-family="'Poppins', sans-serif" font-weight="900" font-size="65" fill="#bfa441" text-anchor="end" style="user-select:none;">
+            5
+          </text>
+        </svg>
+      </div>
+      <div class="title-group">
+        <h1 class="title">Royal 5</h1>
+        <p class="subtitle">Hector Aguilar</p>
+      </div>
+    </div>
+  </header>
+
+  <main role="main" class="main-content">
+
+    <section class="section description reveal" aria-labelledby="intro-text">
+      <div class="container">
+        <p id="intro-text" class="text">
+          Somos comunidad Royal 5 y aquí encuentras toda la información de nosotros. En la parte de abajo está nuestro WhatsApp para que te comuniques directo.
+          Cómo funciona el sistema Royal 5 👇👇👇👇<br><br>
+          Primero, cómo percibes la tecnología, checa el siguiente video:
+        </p>
+      </div>
+    </section>
+
+    <section class="section video reveal" aria-label="Video destacado">
+      <div class="container">
+        <div class="video-frame secure-video">
+          <iframe 
+            src="https://www.youtube.com/embed/l60rIZ3J1ns" 
+            title="Video explicativo Royal 5"
+            frameborder="0"
+            loading="lazy"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            sandbox="allow-same-origin allow-scripts allow-presentation"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta reveal" aria-labelledby="call-to-action">
+      <div class="container cta-container">
+        <p id="call-to-action">Consulta nuestro material adicional:</p>
+        <a href="./pdf/explicacion.pdf" class="button button-outline" role="link" aria-label="Ver archivo PDF">Ver archivo PDF</a>
+      </div>
+    </section>
+
+    <section class="section video reveal" aria-label="Video privado">
+      <div class="container">
+        <div class="video-frame private">
+          <video 
+            src="./video/vm.mp4" 
+            controls 
+            preload="metadata"
+            poster="./video/poster.jpg" 
+            aria-label="Video privado Royal 5"
+          >
+            Tu navegador no soporta el elemento <code>video</code>.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section class="section buttons reveal">
+      <div class="container buttons-container">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScR3kSAe3bm6s_567N0lz1G-5tmgjuf3bCRgCUMaEbF967X2g/viewform?usp=header" class="button button-primary" role="button">Haz tu registro</a>
+        <a 
+          href="https://wa.me/527751423952?text=Estoy%20interesado%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="button button-whatsapp" 
+          role="button" 
+          aria-label="Comunícate por WhatsApp"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="20" height="20" aria-hidden="true" focusable="false">
+            <path d="M20.52 3.48A11.815 11.815 0 0012 0C5.37 0 0 5.37 0 12a11.954 11.954 0 001.64 6.03L0 24l6.16-1.6A11.92 11.92 0 0012 24c6.63 0 12-5.37 12-12 0-3.17-1.23-6.15-3.48-8.52zm-8.04 17.4a8.99 8.99 0 01-4.77-1.39l-.34-.21-3.63.94.97-3.53-.22-.36a8.996 8.996 0 013.4-12.16 9.05 9.05 0 0112.83 3.4 9.004 9.004 0 01-7.01 12.52zm4.42-6.75c-.25-.13-1.48-.73-1.71-.82-.23-.08-.4-.12-.57.13s-.65.82-.8.99c-.15.16-.31.18-.57.06a7.44 7.44 0 01-2.19-1.36 8.15 8.15 0 01-1.5-1.87c-.16-.26-.02-.4.11-.53.11-.11.25-.3.37-.46.12-.15.16-.25.25-.42.08-.17.04-.3-.02-.42-.06-.13-.57-1.38-.78-1.9-.2-.5-.41-.43-.57-.44-.15 0-.32 0-.49 0-.17 0-.44.06-.67.3-.23.25-.88.86-.88 2.1 0 1.23.9 2.43 1.02 2.6.12.16 1.76 2.7 4.27 3.78a7.72 7.72 0 002.65.43c.43 0 1.68-.7 1.92-1.38.24-.68.24-1.26.17-1.38-.07-.13-.23-.2-.48-.34z"/>
+          </svg>
+          <span>Comunícate por WhatsApp</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p>Lnk.Bio - Royal 5</p>
+    </div>
+  </footer>
+
+  <script src="./js/script.js" defer></script>
+</body>
+</html>
