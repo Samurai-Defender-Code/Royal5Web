@@ -46,20 +46,35 @@ body {
 }
 
 /* Logo */
+/* Contenedor centrado */
 .logo {
-  margin-bottom: 18px;
-  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; /* Pantalla completa vertical */
 }
 
-.logo-svg {
-  display: block;
-  margin: 0 auto;
-  filter: drop-shadow(0 0 5px #c9a83bcc);
-  transition: transform 0.4s ease;
+.logo-img {
+  width: 400px; /* Tamaño medio */
+  max-width: 90%;
+  opacity: 0;
+  transform: scale(0.8);
+  animation: fadeZoomIn 1.5s ease-out forwards;
 }
-.logo-svg:hover {
-  transform: scale(1.07) rotate(3deg);
+
+/* Animación personalizada */
+@keyframes fadeZoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
+
+
 
 /* Título y subtítulo */
 .title-group .title {
